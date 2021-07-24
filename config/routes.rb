@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   post '/login', to: "users#login"
   get '/me', to: "users#me"
   post '/users', to: "users#create"
+  post '/my_articles', to: "my_articles#create"
   get '/categories', to: "categories#index"
   get '/categories/:id', to: "categories#show"
   get '/articles', to: "articles#index"
