@@ -5,15 +5,14 @@ class UsersController < ApplicationController
     def login
         user = User.find_by(username: params[:username])
         if user && user.authenticate(params[:password])
-            wristband = encode_token(user_id: user.id)
-            render json: {user: UserSerializer.new(user), token: wristband} 
+            wristband = encode_token({user_id: user.id})
+            render json: {user: UserSerializer.new(user), token: wristband}
         else
-            render json: {errors:"Wrong username or password"}
+            render json: {error: "You done goofed"}
         end
     end
 
     def me
-        profiles = User.all.where("id <> #{@user.id}")
         wristband = encode_token({user_id: @user.id})
         render json: {user: UserSerializer.new(@user), token: wristband}
     end
@@ -24,7 +23,7 @@ class UsersController < ApplicationController
             wristband = encode_token({user_id: user.id})
             render json: {user: UserSerializer.new(user), token: wristband}
         else
-            render json: {errors: user.errors.full_messages}, status: :unprocessable_entity
+            render json: {errors: user.errors.full_messages}
         end
     end
 
