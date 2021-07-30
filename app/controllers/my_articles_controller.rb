@@ -9,12 +9,13 @@ class MyArticlesController < ApplicationController
         if my_article.valid?
             render json: my_article
         else render json: {error: my_article.errors.full_messages}, status: 400
+        end
     end
 
     def destroy
         my_article = MyArticle.find(params[:id])
-        my_articles.destroy
-        render json: my_articles
+        my_article.destroy
+        render json: my_article
     end
 
     private
