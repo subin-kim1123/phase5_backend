@@ -1056,26 +1056,79 @@ This month, we also provided more details on the ICE blockchain, the new EVM com
 We will also announce additional teams to the working group very soon. Additionally, we will provide details on the testnet, snapshot for the airdrop, and other key development milestones.
 ', category: Category.fourth)
 
-article32 = Article.create(title: 'The biggest issues with tech interviews and why companies should do better', author: 'Cynthia Costa', url:'https://medium.com/@cycosta/the-biggest-issues-with-tech-interviews-and-why-companies-should-do-better-4eeb9f63e8dd', time: 4, image: 'https://miro.medium.com/max/700/1*i8G2PFWRJquZ_TfM8ACeBg.jpeg', description: 'I’m a former designer turned front-end developer and I’ve been dedicating myself entirely to web development since 2018.', content: 'I’m a former designer turned front-end developer and I’ve been dedicating myself entirely to web development since 2018. That means I’ve been dealing with the tech market ever since, and let me tell you something, our industry hiring process is broken.
-Back in 2018, when I got my first opportunity as a developer, I was lucky enough to bump into a company that was welcoming junior developers without demanding previous experience. That leads me to our first problem: the absurd number of prerequisites asked of junior developers nowadays. How is it possible for an entry level developer to have a minimum 2 year experience with React? Let me answer that, it simply isn’t. If your company wants to hire junior developers (and they should), they must be willing to guide and teach them through this path. Junior developers are eager to learn and contribute when given the chance to do so.
-My first hiring process consisted of three parts:
-An online interview with two managers, focused mostly on my previous experience as a designer, my career path and my skills, both technical and soft;
-A take home assignment where I should develop from scratch a layout they sent me and then send it to Github for the tech team to review;
-A final on location interview for me to present my assignment to the team, explaining the project and choices of technology
-A simple, straight forward and, most important, HUMAN process.
-A few days later, on my birthday, I got a call from one of the managers offering me the job that changed my professional life.
-At the end of the year 2020 I decided it was time for a change, which led me to begin the search for my next challenge. And this is the cue to our second problem, which is precisely the hiring method I’ve began to notice and experience since then. Long, heavy and far from empathetic processes that drain our energy, makes us question our abilities and is extremely damaging to mental health.
-One of the companies I applied to demanded a 4 hour interview (among other stages) with people from different areas of the business, who frequently asked identical questions, making me repeat myself to a level of exhaustion. Another one sent me an assignment to deliver in a week using React. At the time I had zero experience with the library, but still I immersed myself in learning the technology and I delivered a beautifully coded project that makes me proud till this day. What I got in return? A final interview with a person with no tech experience, who asked rehearsed questions with no additional explanation and who gave me no technical feedback whatsoever on my assignment. It was a real bummer.
-A friend, who was looking for her second tech job at the time, took part in a process that required applicants to engage in a full workday at the company, not taking into account that most candidates are still employed while applying. The workday consisted of team ceremonies, a pair programming task with someone from the team, a conversation with the project manager and finally a talk with someone from RH. You had to be available to them for a whole day, which is impossible for most applicants.
-Beyond all these issues, there is a specific one that hunts me till the present day: the live coding interview.
-As a person who struggles with generalized anxiety disorder, I found myself at a crossroad many times, having to chose between participating in a live coding interview, even knowing that I would perform poorly and that it would affect me personally, or refusing to participate at all, closing the door to that opportunity. I believe anyone who suffers from anxiety or any kind of mental disorder can relate to this.
-Luckily for me, back then, I found myself in a comfortable position to refuse and respect my personal boundaries. And I eventually got the perfect job without having to sacrifice myself in the process. But unfortunately that’s not always the case, not for me or anyone else.
-When given the chance, I often give feedback to recruiters to try to raise awareness to this matter. It’s well received and people are often open to the conversation, but not always. A recruiter once told me that she agreed with my perspective and she brought the matter up internally, but the company wasnot willing to change.
-There is a study from the North Carolina State University along with Microsoft, that finds that the technical interviews currently used (live coding, whiteboarding) test whether a candidate has performance anxiety rather than whether the candidate is competent at coding and a right fit for the job.
-It’s also noticed that the current format excludes entire classes of candidates, like women. One of the researches responsible for the study showed that all of the women who took the public interview failed, while all of the women who took the private interview passed. And in our present scenario, where companies are striving to appear more inclusive, that should be a point of concern. When we talk about diversity and inclusion, it’s not as simple as listing a job targeting minorities. It has to go beyond the public eye. Companies need to make sure the hiring process is also inclusive and that their space is safe to welcome everyone.
-As a developer who is constantly striving to evolve, I wonder if I should adapt to fit the market, pushing my personal boundaries in favor of my career, even though I know it would be wrong.
-We shouldn’t be forced to choose between our careers and our mental health. Change should come from within the industry.
-I’m still hopeful.', category: Category.fourth)
+article32 = Article.create(title: '10 Cool Python Project Ideas for Python Developers', author: '
+Claire D. Costa', url:'https://towardsdatascience.com/10-cool-python-project-ideas-for-python-developers-7953047e203', time: 10, image: 'https://miro.medium.com/max/1400/1*J4xsEISU9wuB237dgDfLNA.jpeg', description: 'A list of interesting ideas and projects you can build using Python', content: 'Python is one of the most used programming languages in the world, and that can be contributed to its general-purpose nature, which makes it a suitable candidate for various domains in the industry. With Python, you can develop programs not just for the web, but also for desktop and command-line. Python can be suitable for programmers of varying skill levels, right from the students to intermediate developers, to experts and professionals. But every programming language requires constant learning, and its the same case with Python.
+If you truly want to get in-depth practical knowledge, there is no better way to get your hands dirty with Python than to undertake some cool projects that will not only keep you occupied in your free time but will also teach you how to get more out of Python.
+Did You Know?
+According to Stackoverflow, Python is the most preferred language which means that the majority of developers use python.
+Choosing a Project Platform
+Python can be a very versatile programming language in the right hands, and you can build many nifty programs with it to strengthen your command over the language. It is of utmost importance to have more exposure to practical knowledge than theoretical, especially when it comes to learning programming languages, such as Python.
+But before we dive into the fun projects we have store for you, you must decide which platform you’re going to be working on. The platforms for the projects mentioned in this article can be categorized into three categories listed below:
+● Web
+Building a web application allows you and everyone else to access it from anywhere via the internet. For that, you would need to work on the front-end, the visual part, and the back-end of the application, where the business logic is implemented. Tools & Frameworks such as Django, Flask, and Web2Py are some of the many options you can use for this.
+● Desktop GUI
+Desktop applications are also very commonly used and cater to a sizable chunk of users. When it comes to building desktop applications, Python makes it very easy for you to develop one using its PySimpleGUI package, which allows you to build all the necessary elements using Python. The framework PyQt5 also offers advanced GUI building elements but has a steeper learning curve.
+● Command-Line
+Command-line programs work only in console windows and have no GUI at all. The user interaction takes place via commands and it is the oldest method of interacting with programs but don’t mistake its lack of GUI for its lack of usefulness. Hundreds of top enterprises depend on command-line programs to perform their daily business activities. To build command-line programs, you can use tools such as docopt, Python Fire, plac, and cliff.
+“Python has been an important part of Google since the beginning, and remains so as the system grows and evolves. Today dozens of Google engineers use Python, and we’re looking for more people with skills in this language.”
+- Peter Norvig, director of search quality at Google, Inc.
+Python Project Ideas for Python Developers
+If you have made up your mind about the platform you’re going to use, let’s jump straight into the projects. Mentioned below are some fun projects addressed towards developers of all skill levels that will play a crucial role in taking their skills and confidence with Python to the next level.
+1. Content Aggregator
+The internet is a prime source of information for millions of people who are always looking for something online. For those looking for bulk information about a specific topic can save time using a content aggregator.
+A content aggregator is a tool that gathers and provides information about a topic from a bulk of websites in one place. To make one, you can take the help of the requests library for handling the HTTP requests and BeautifulSoup for parsing and scraping the required information, along with a database to save the collected information.
+Examples of Content Aggregators:
+AllTop
+Hvper
+2. URL Shortener
+URLs are the primary source of navigation to any resource on the internet, be it a webpage or a file, and, sometimes, some of these URLs can be quite large with weird characters. URL shorteners play an important role in reducing the characters in these URLs and making them easier to remember and work with.
+The idea behind making a URL shortener is to use the random and string modules for generating a new short URL from the entered long URL. Once you’ve done that, you would need to map the long URLs and short URLs and store them in a database to allow users to use them in the future.
+Examples of URL Shortener 
+— bit.ly
+- TinyURL
+3. File Renaming Tool
+
+If your job requires you to manage a large number of files frequently, then using a file renaming tool can save you a major chunk of your time. What it essentially does is that it renames hundreds of files using a defined initial identifier, which could be defined in the code or asked from the user.
+To make this happen, you could use the libraries such as sys, shutil, and os in Python to rename the files instantaneously. To implement the option to add a custom initial identifier to the files, you can use the regex library to match the naming patterns of the files.
+Examples of Bulk File Rename Tools 
+— Ren
+- Rename
+
+4. Directory Tree Generator
+A directory tree generator is a tool that you would use in conditions where you’d like to visualize all the directories in your system and identify the relationship between them. What a directory tree essentially indicates is which directory is the parent directory and which ones are its sub-directories. A tool like this would be helpful if you work with a lot of directories, and you want to analyze their positioning. To build this, you can use the os library to list the files and directories along with the docopt framework.
+Examples of Directory Tree Generators 
+- Tree
+- Dirtreex
+
+5. MP3 Player
+If you love listening to music, you’d be surprised to know that you can build a music player with Python. You can build an mp3 player with the graphical interface with a basic set of controls for playback, and even display the integrated media information such as artist, media length, album name, and more.
+You can also have the option to navigate to folders and search for mp3 files for your music player. To make working with media files in Python easier, you can use the simpleaudio, pymedia, and pygame libraries.
+Examples of MP3 Players
+- MusicBee
+- Foobar2000
+
+6. Tic Tac Toe
+Tic Tac Toe is a classic game we’re sure each of you is familiar with. It’s a simple and fun game and requires only two players. The goal is to create an uninterrupted horizontal, vertical, or diagonal line of either three Xs or Os on a 3x3 grid, and whoever does it first is the winner of the game. A project like this can use Python’s pygame library, which comes with all the required graphics and the audio to get you started with building something like this.
+
+7. Quiz Application
+Another popular and fun project you can build using Python is a quiz application. A popular example of this is Kahoot, which is famous for making learning a fun activity among the students. The application presents a series of questions with multiple options and asks the user to select an option and later on, the application reveals the correct options.
+As the developer, you can also create the functionality to add any desired question with the answers to be used in the quiz. To make a quiz application, you would need to use a database to store all the questions, options, the correct answers, and the user scores.
+Examples of Quiz Applications
+- Kahoot
+- myQuiz
+
+8. Calculator
+Of course, no one should miss the age-old idea of developing a calculator while learning a new programming language, even if it is just for fun. We’re sure all of you know what a calculator is, and if you have already given it a shot, you can try to enhance it with a better GUI that brings it closer to the modern versions that come with operating systems today. To make that happen, you can use the tkinter package to add GUI elements to your project.
+
+9. Build a Virtual Assistant
+Almost every smartphone nowadays comes with its own variant of a smart assistant that takes commands from you either via voice or by text and manages your calls, notes, books a cab, and much more. Some examples of this are Google Assistant, Alexa, Cortana, and Siri. If you’re wondering what goes into making something like this, you can use packages such as pyaudio, SpeechRecognition, gTTS, and Wikipedia. The goal here is to record the audio, convert the audio to text, process the command, and make the program act according to the command.
+
+10. Currency Converter
+As the name suggests, this project includes building a currency converter that allows you to input the desired value in the base currency and returns the converted value in the target currency. A good practice is to code the ability to get updated conversion rates from the internet for more accurate conversions. For this too, you can use the tkinter package to build the GUI.
+
+Conclusion
+Concluding our list of a handful of interesting ideas and projects you can build using Python, we can say that Python can be a very useful programming language to develop applications of all sorts and scales. Furthermore, the packages provided by Python offer immense value to the developers in simplifying the development process to a great extent. To wrap things up, we would like to say that the potential with Python is limitless, and the only thing that you might be missing could be the right idea.
+', category: Category.fourth)
 
 article33 = Article.create(title: 'Top 6 Communities for in-Tech Women', author: 'Archi Agrawal', url:'https://medium.com/@ar.chill/top-6-communities-for-in-tech-women-d7276c16d927', time: 3, image: 'https://miro.medium.com/max/700/0*jVqAfOpY0SwRWT8_', description: 'Challenges of being a woman in tech comes from the society itself.', content: 'Challenges of being a woman in tech comes from the society itself. If you are an enthusiastic female coder but feel under-represented and underestimated despite the diversity that educational institutions and workplaces claim to have achieved or want to share your story and encourage women in the field of technology, here’s a list of communities where you can learn, grow together in a supportive environment and reach out to other women in technology around the globe. There are more such communities being created nowadays to cultivate support, respect and equality in the society for women of all colors, backgrounds and interests.
 Google’s Women Techmakers
@@ -1211,79 +1264,26 @@ Chesscademy — Learn how to play chess for free.
 Pianu — A new way to learn piano online, interactively.
 Yousician— Your personal guitar tutor for the digital age.', category: Category.fourth)
 
-article38 = Article.create(title: '10 Cool Python Project Ideas for Python Developers', author: '
-Claire D. Costa', url:'https://towardsdatascience.com/10-cool-python-project-ideas-for-python-developers-7953047e203', time: 10, image: 'https://miro.medium.com/max/1400/1*J4xsEISU9wuB237dgDfLNA.jpeg', description: 'A list of interesting ideas and projects you can build using Python', content: 'Python is one of the most used programming languages in the world, and that can be contributed to its general-purpose nature, which makes it a suitable candidate for various domains in the industry. With Python, you can develop programs not just for the web, but also for desktop and command-line. Python can be suitable for programmers of varying skill levels, right from the students to intermediate developers, to experts and professionals. But every programming language requires constant learning, and its the same case with Python.
-If you truly want to get in-depth practical knowledge, there is no better way to get your hands dirty with Python than to undertake some cool projects that will not only keep you occupied in your free time but will also teach you how to get more out of Python.
-Did You Know?
-According to Stackoverflow, Python is the most preferred language which means that the majority of developers use python.
-Choosing a Project Platform
-Python can be a very versatile programming language in the right hands, and you can build many nifty programs with it to strengthen your command over the language. It is of utmost importance to have more exposure to practical knowledge than theoretical, especially when it comes to learning programming languages, such as Python.
-But before we dive into the fun projects we have store for you, you must decide which platform you’re going to be working on. The platforms for the projects mentioned in this article can be categorized into three categories listed below:
-● Web
-Building a web application allows you and everyone else to access it from anywhere via the internet. For that, you would need to work on the front-end, the visual part, and the back-end of the application, where the business logic is implemented. Tools & Frameworks such as Django, Flask, and Web2Py are some of the many options you can use for this.
-● Desktop GUI
-Desktop applications are also very commonly used and cater to a sizable chunk of users. When it comes to building desktop applications, Python makes it very easy for you to develop one using its PySimpleGUI package, which allows you to build all the necessary elements using Python. The framework PyQt5 also offers advanced GUI building elements but has a steeper learning curve.
-● Command-Line
-Command-line programs work only in console windows and have no GUI at all. The user interaction takes place via commands and it is the oldest method of interacting with programs but don’t mistake its lack of GUI for its lack of usefulness. Hundreds of top enterprises depend on command-line programs to perform their daily business activities. To build command-line programs, you can use tools such as docopt, Python Fire, plac, and cliff.
-“Python has been an important part of Google since the beginning, and remains so as the system grows and evolves. Today dozens of Google engineers use Python, and we’re looking for more people with skills in this language.”
-- Peter Norvig, director of search quality at Google, Inc.
-Python Project Ideas for Python Developers
-If you have made up your mind about the platform you’re going to use, let’s jump straight into the projects. Mentioned below are some fun projects addressed towards developers of all skill levels that will play a crucial role in taking their skills and confidence with Python to the next level.
-1. Content Aggregator
-The internet is a prime source of information for millions of people who are always looking for something online. For those looking for bulk information about a specific topic can save time using a content aggregator.
-A content aggregator is a tool that gathers and provides information about a topic from a bulk of websites in one place. To make one, you can take the help of the requests library for handling the HTTP requests and BeautifulSoup for parsing and scraping the required information, along with a database to save the collected information.
-Examples of Content Aggregators:
-AllTop
-Hvper
-2. URL Shortener
-URLs are the primary source of navigation to any resource on the internet, be it a webpage or a file, and, sometimes, some of these URLs can be quite large with weird characters. URL shorteners play an important role in reducing the characters in these URLs and making them easier to remember and work with.
-The idea behind making a URL shortener is to use the random and string modules for generating a new short URL from the entered long URL. Once you’ve done that, you would need to map the long URLs and short URLs and store them in a database to allow users to use them in the future.
-Examples of URL Shortener 
-— bit.ly
-- TinyURL
-3. File Renaming Tool
-
-If your job requires you to manage a large number of files frequently, then using a file renaming tool can save you a major chunk of your time. What it essentially does is that it renames hundreds of files using a defined initial identifier, which could be defined in the code or asked from the user.
-To make this happen, you could use the libraries such as sys, shutil, and os in Python to rename the files instantaneously. To implement the option to add a custom initial identifier to the files, you can use the regex library to match the naming patterns of the files.
-Examples of Bulk File Rename Tools 
-— Ren
-- Rename
-
-4. Directory Tree Generator
-A directory tree generator is a tool that you would use in conditions where you’d like to visualize all the directories in your system and identify the relationship between them. What a directory tree essentially indicates is which directory is the parent directory and which ones are its sub-directories. A tool like this would be helpful if you work with a lot of directories, and you want to analyze their positioning. To build this, you can use the os library to list the files and directories along with the docopt framework.
-Examples of Directory Tree Generators 
-- Tree
-- Dirtreex
-
-5. MP3 Player
-If you love listening to music, you’d be surprised to know that you can build a music player with Python. You can build an mp3 player with the graphical interface with a basic set of controls for playback, and even display the integrated media information such as artist, media length, album name, and more.
-You can also have the option to navigate to folders and search for mp3 files for your music player. To make working with media files in Python easier, you can use the simpleaudio, pymedia, and pygame libraries.
-Examples of MP3 Players
-- MusicBee
-- Foobar2000
-
-6. Tic Tac Toe
-Tic Tac Toe is a classic game we’re sure each of you is familiar with. It’s a simple and fun game and requires only two players. The goal is to create an uninterrupted horizontal, vertical, or diagonal line of either three Xs or Os on a 3x3 grid, and whoever does it first is the winner of the game. A project like this can use Python’s pygame library, which comes with all the required graphics and the audio to get you started with building something like this.
-
-7. Quiz Application
-Another popular and fun project you can build using Python is a quiz application. A popular example of this is Kahoot, which is famous for making learning a fun activity among the students. The application presents a series of questions with multiple options and asks the user to select an option and later on, the application reveals the correct options.
-As the developer, you can also create the functionality to add any desired question with the answers to be used in the quiz. To make a quiz application, you would need to use a database to store all the questions, options, the correct answers, and the user scores.
-Examples of Quiz Applications
-- Kahoot
-- myQuiz
-
-8. Calculator
-Of course, no one should miss the age-old idea of developing a calculator while learning a new programming language, even if it is just for fun. We’re sure all of you know what a calculator is, and if you have already given it a shot, you can try to enhance it with a better GUI that brings it closer to the modern versions that come with operating systems today. To make that happen, you can use the tkinter package to add GUI elements to your project.
-
-9. Build a Virtual Assistant
-Almost every smartphone nowadays comes with its own variant of a smart assistant that takes commands from you either via voice or by text and manages your calls, notes, books a cab, and much more. Some examples of this are Google Assistant, Alexa, Cortana, and Siri. If you’re wondering what goes into making something like this, you can use packages such as pyaudio, SpeechRecognition, gTTS, and Wikipedia. The goal here is to record the audio, convert the audio to text, process the command, and make the program act according to the command.
-
-10. Currency Converter
-As the name suggests, this project includes building a currency converter that allows you to input the desired value in the base currency and returns the converted value in the target currency. A good practice is to code the ability to get updated conversion rates from the internet for more accurate conversions. For this too, you can use the tkinter package to build the GUI.
-
-Conclusion
-Concluding our list of a handful of interesting ideas and projects you can build using Python, we can say that Python can be a very useful programming language to develop applications of all sorts and scales. Furthermore, the packages provided by Python offer immense value to the developers in simplifying the development process to a great extent. To wrap things up, we would like to say that the potential with Python is limitless, and the only thing that you might be missing could be the right idea.
-', category: Category.fourth)
+article38 = Article.create(title: 'The biggest issues with tech interviews and why companies should do better', author: 'Cynthia Costa', url:'https://medium.com/@cycosta/the-biggest-issues-with-tech-interviews-and-why-companies-should-do-better-4eeb9f63e8dd', time: 4, image: 'https://miro.medium.com/max/700/1*i8G2PFWRJquZ_TfM8ACeBg.jpeg', description: 'I’m a former designer turned front-end developer and I’ve been dedicating myself entirely to web development since 2018.', content: 'I’m a former designer turned front-end developer and I’ve been dedicating myself entirely to web development since 2018. That means I’ve been dealing with the tech market ever since, and let me tell you something, our industry hiring process is broken.
+    Back in 2018, when I got my first opportunity as a developer, I was lucky enough to bump into a company that was welcoming junior developers without demanding previous experience. That leads me to our first problem: the absurd number of prerequisites asked of junior developers nowadays. How is it possible for an entry level developer to have a minimum 2 year experience with React? Let me answer that, it simply isn’t. If your company wants to hire junior developers (and they should), they must be willing to guide and teach them through this path. Junior developers are eager to learn and contribute when given the chance to do so.
+    My first hiring process consisted of three parts:
+    An online interview with two managers, focused mostly on my previous experience as a designer, my career path and my skills, both technical and soft;
+    A take home assignment where I should develop from scratch a layout they sent me and then send it to Github for the tech team to review;
+    A final on location interview for me to present my assignment to the team, explaining the project and choices of technology
+    A simple, straight forward and, most important, HUMAN process.
+    A few days later, on my birthday, I got a call from one of the managers offering me the job that changed my professional life.
+    At the end of the year 2020 I decided it was time for a change, which led me to begin the search for my next challenge. And this is the cue to our second problem, which is precisely the hiring method I’ve began to notice and experience since then. Long, heavy and far from empathetic processes that drain our energy, makes us question our abilities and is extremely damaging to mental health.
+    One of the companies I applied to demanded a 4 hour interview (among other stages) with people from different areas of the business, who frequently asked identical questions, making me repeat myself to a level of exhaustion. Another one sent me an assignment to deliver in a week using React. At the time I had zero experience with the library, but still I immersed myself in learning the technology and I delivered a beautifully coded project that makes me proud till this day. What I got in return? A final interview with a person with no tech experience, who asked rehearsed questions with no additional explanation and who gave me no technical feedback whatsoever on my assignment. It was a real bummer.
+    A friend, who was looking for her second tech job at the time, took part in a process that required applicants to engage in a full workday at the company, not taking into account that most candidates are still employed while applying. The workday consisted of team ceremonies, a pair programming task with someone from the team, a conversation with the project manager and finally a talk with someone from RH. You had to be available to them for a whole day, which is impossible for most applicants.
+    Beyond all these issues, there is a specific one that hunts me till the present day: the live coding interview.
+    As a person who struggles with generalized anxiety disorder, I found myself at a crossroad many times, having to chose between participating in a live coding interview, even knowing that I would perform poorly and that it would affect me personally, or refusing to participate at all, closing the door to that opportunity. I believe anyone who suffers from anxiety or any kind of mental disorder can relate to this.
+    Luckily for me, back then, I found myself in a comfortable position to refuse and respect my personal boundaries. And I eventually got the perfect job without having to sacrifice myself in the process. But unfortunately that’s not always the case, not for me or anyone else.
+    When given the chance, I often give feedback to recruiters to try to raise awareness to this matter. It’s well received and people are often open to the conversation, but not always. A recruiter once told me that she agreed with my perspective and she brought the matter up internally, but the company wasnot willing to change.
+    There is a study from the North Carolina State University along with Microsoft, that finds that the technical interviews currently used (live coding, whiteboarding) test whether a candidate has performance anxiety rather than whether the candidate is competent at coding and a right fit for the job.
+    It’s also noticed that the current format excludes entire classes of candidates, like women. One of the researches responsible for the study showed that all of the women who took the public interview failed, while all of the women who took the private interview passed. And in our present scenario, where companies are striving to appear more inclusive, that should be a point of concern. When we talk about diversity and inclusion, it’s not as simple as listing a job targeting minorities. It has to go beyond the public eye. Companies need to make sure the hiring process is also inclusive and that their space is safe to welcome everyone.
+    As a developer who is constantly striving to evolve, I wonder if I should adapt to fit the market, pushing my personal boundaries in favor of my career, even though I know it would be wrong.
+    We shouldn’t be forced to choose between our careers and our mental health. Change should come from within the industry.
+    I’m still hopeful.', category: Category.fourth)
 
 article39 = Article.create(title: 'USB-C Was Supposed to Simplify Our Lives. Instead, It’s a Total Mess.', author: 'Owen Williams', url:'https://debugger.medium.com/usb-c-was-supposed-to-simplify-our-lives-instead-its-a-total-mess-626bb2ea3688', time: 4, image: 'https://miro.medium.com/max/700/1*ySrRuOkJ8rNgqKQsQnR4Qg.jpeg', description: 'A mix of hidden standards make the ubiquitous cable a pain to deal with', content: 'Techies hailed USB-C as the future of cables when it hit the mainstream market with Apple’s single-port MacBook in 2015. It was a huge improvement over the previous generation of USB, allowing for many different types of functionality — charging, connecting to an external display, etc. — in one simple cord, all without having a “right side up” like its predecessor.
 Five years later, USB-C is near-ubiquitous: Almost every modern laptop and smartphone has at least one USB-C port, with the exception of the iPhone, which still uses Apple’s proprietary Lightning port. For all its improvements, USB-C has become a mess of tangled standards — a nightmare for consumers to navigate despite the initial promise of simplicity.
@@ -1299,37 +1299,6 @@ Despite working in the tech industry and having a deep interest in gadgets, I tr
 How any normal person is supposed to grasp this soup of standards, built atop a single port that looks the same, is anyone’s guess. Having a single, universal port on the majority of my devices is a godsend, but it feels like spinning the wheel every time I plug something in: Will it behave the way I expect? If it’s this difficult for me, I’m not sure how the average person will know how to figure out what’s wrong.
 There is some hope in the future with USB 4, which the USB Implementers Forum (USB-IF) announced in 2019. The new standard uses the same USB-C connector, and is actually built on top of Thunderbolt, which will help resolve a large amount of confusion and offer fast speeds universally. But, like with previous versions of USB, getting devices certified will remain optional, and there’s no clear plan for how consumers will be able to identify cables or devices that support the new standard, all of which will need to be replaced to actually use it.
 I’m thankful that USB-C is becoming universal, slowly pushing us toward a future where we have a single standardized connector for everything. But it’s more confusing than ever to perform the simple act of plugging things in. When it first arrived on the scene, USB-C was pitched as a utopia: One cable to rule them all, but now that we’re living in that future, figuring out which cable is the right one when they all look the same is an unresolved nightmare.', category: Category.fourth)
-
-article40 = Article.create(title: 'These are 8 strict workplace rules Elon Musk makes his Tesla employees follow', author: 'Business Insider', url:'https://medium.com/business-insider/8-strict-workplace-rules-elon-musk-makes-tesla-employees-follow-29ca6686bcab', time: 4, image: 'https://miro.medium.com/max/1920/1*a2YcigYV6e1ixZztNbms4A.jpeg', description: 'Elon Musk is not a fan of meetings, bureaucracy, hierarchy, or any system that impedes immediate communication.', content: 'By Kevin Loria and Jake Kanter
-Elon Musk gets a lot done.
-The 49-year-old entrepreneur and CEO is revolutionizing the spaceflight industry with SpaceX, transforming the world of the electric car at Tesla, and pushing neuroscience and transportation forward at Neuralink and the Boring Company.
-The billionaire expects similar standards from his employees, and an email Musk sent to Tesla employees in 2018, as well as other reports, provide a window on the rules he likes his people to observe in the workplace.
-It’s clear that Musk is clearly not a fan of meetings, bureaucracy, hierarchy, or any system that impedes immediate communication. He prefers people apply common sense to the task at hand. And if employees don’t meet his expectations, he can be ruthless.
-Read on for some of the strict rules Musk sets for his employees.
-Large-format meetings waste people’s time.
-“Excessive meetings are the blight of big companies and almost always get worse over time. Please get [rid] of all large meetings, unless you’re certain they are providing value to the whole audience, in which case keep them very short,” he said in 2018 in an email obtained by Jalopnik.
-Meetings should be infrequent unless a matter is urgent.
-“Also get rid of frequent meetings, unless you are dealing with an extremely urgent matter. Meeting frequency should drop rapidly once the urgent matter is resolved,” Musk told staff.
-If you don’t need to be in a meeting, leave.
-“Walk out of a meeting or drop off a call as soon as it is obvious you aren’t adding value. It is not rude to leave, it is rude to make someone stay and waste their time,” Musk’s email said.
-Avoid confusing jargon.
-“Don’t use acronyms or nonsense words for objects, software, or processes at Tesla. In general, anything that requires an explanation inhibits communication. We don’t want people to have to memorize a glossary just to function at Tesla,” he said.
-Don’t let hierarchical structures make things less efficient.
-“Communication should travel via the shortest path necessary to get the job done, not through the ‘chain of command’. Any manager who attempts to enforce chain of command communication will soon find themselves working elsewhere,” Musk said in his internal letter.
-If you need to get in touch with someone, do so directly.
-“A major source of issues is poor communication between depts. The way to solve this is allow free flow of information between all levels,” he said.
-“If, in order to get something done between depts, an individual contributor has to talk to their manager, who talks to a director, who talks to a VP, who talks to another VP, who talks to a director, who talks to a manager, who talks to someone doing the actual work, then super dumb things will happen. It must be ok for people to talk directly and just make the right thing happen.”
-Don’t waste time following silly rules.
-“In general, always pick common sense as your guide. If following a ‘company rule’ is obviously ridiculous in a particular situation, such that it would make for a great Dilbert cartoon, then the rule should change.”
-Don’t leak to the press under any circumstances.
-In an email leaked to the press May 2019, Musk rallied against leaking to the press — under any circumstances.
-“As an employee and a shareholder, each of us has a responsibility to safeguard all information and technology we use and generate every day,” Musk said.
-“Tesla will take action against those who improperly leak proprietary business information or violate the non-disclosure obligations to which we all agreed. This includes termination of employment, claims for damages, and even criminal charges.”
-He went on to list a bunch of examples in which Tesla staff were fired for leaking, including on social media.
-Musk is known to be ruthless.
-Elon Musk was so prone to firing sprees that Tesla employees were told not to walk past his desk in case it jeopardized their career, according to an explosive Wired article published in 2018. One source told Wired that they coined a term for Musk’s outbursts: “Elon’s rage firings.”
-Tesla disputed Wired’s reporting as “overly-dramatic and sensationalized,” but did say that “Elon and the company’s leadership will sometimes take the difficult step of letting people go who are not performing.”
-', category: Category.fourth)
 
 article41 = Article.create(title: 'Your Addiction to Outrage is Ruining Your Life', author: 'Pete Ross', url:'https://medium.com/the-bad-influence/your-addiction-to-outrage-is-ruining-your-life-9effebdfeaca', time: 5, image: 'https://miro.medium.com/max/1000/1*CMYGF7GZlstCX5YUx1Q-Qg.jpeg', description: 'The anger feels so good, but it’s insidious', content: 'In 2020, outrage is the latest drug of society. It’s more acceptable than alcohol and it’s more addictive than anything you can swallow, smoke or inject, because while heroin or methamphetamine are clearly harmful, anger feels so damn righteous.
 After all, that other political party is ruining the world. Their supporters hate America (or whatever country you’re in). People are too selfish. We’re not doing enough for the poor. Women don’t have enough rights. Men don’t have enough rights. Those people are racists. That group doesn’t recognise their privilege. The president is a rapist. Capitalism is exploiting everyone who isn’t the 1%.
@@ -1424,114 +1393,7 @@ Perhaps we can fix this thing after all.
 UPDATE:
 A few days after publishing this story, Jared was suddenly and mysteriously unable to access the dashboard of his Facebook Fanpage. It was down for more than a week and continues to mysteriously go down for days at a time.', category: Category.fifth)
 
-article44 = Article.create(title: 'How To Get Around Newspaper Paywalls In 2021 Read Article For Free', author: '', url:'https://medium.com/how-to-blogs/how-to-get-around-newspaper-paywalls-in-2020-read-article-for-free-768b5cbe201f', time: 5, image: 'https://miro.medium.com/max/1000/0*I5SDlTfE4qL4Fk_g', description: 'Read and bypass every newspaper site like the New York Times, Medium, WSJ, Washington Post, Business Insider, and Financial Times For Free.', content: 'The media industry is changing with time and this time the Internet revolutionizes everything from Journalism to marketing to growing sales. Newspaper sites like the New York Times and Financial times introduced their paywall and you have to subscribe to their services in order to get around their paywall and read their articles for free. The first time i experienced a paywall is when I was reading Medium articles.
-Big newspaper sites like The Washington Post, the New York Times, BusinessInsider, and almost every online publishing site started introducing their own paywall. Some of the newspaper sites like the New York Times give you the opportunity to read a limited number of articles for free on a monthly basis.
-Why I am writing this article? I am writing to help students and those people who can’t afford the subscription charges. I have made some videos related to bypass newspaper sites and read articles for free and a lot of students and poor folks thank me for making such videos. You can watch videos like;
-Disclosure: Some links mentioned in this article are affiliate links this means we will make a small commission, with no extra cost to you, if you choose to buy a service or product through our links. Thank you!
-Before you go to the process, you can check out the links and buy a digital subscription to these platforms;
-Check out the New York Times Digital Subscription
-Check out the Wall Street Journal DIgital subscription
-Check out the Financial Times Digital Subscription
-Check out the Economist (US Edition) Digital Subscription
-Ever heard of ad-wall, it is like Paywalls for those people who have ad-blocks installed. I believe this is very unethical to consume content and don’t see ads because that is in your control, you might be poor like me, I am a student, but you could allow and take time to see and check out ads. If you have an ad-blocker installed then you should un-installed it right now.
-You can read and bypass the paywall of the following sites:
-Baltimore Sun (baltimoresun.com)
-Barron’s (barrons.com)
-Bloomberg (bloomberg.com)
-Caixin (caixinglobal.com)
-Chemical & Engineering News (cen.acs.org)
-Central Western Daily (centralwesterndaily.com.au)
-Chicago Tribune (chicagotribune.com)
-Crain’s Chicago Business (chicagobusiness.com)
-Corriere Della Sera (corriere.it)
-Daily Press (dailypress.com)
-Denver Post (denverpost.com)
-De Tijd (tijd.be)
-de Volkskrant (volkskrant.nl)
-The Economist (economist.com)
-Examiner (examiner.com.au)
-Financial Times (ft.com)
-Foreign Policy (foreignpolicy.com)
-Glassdoor (glassdoor.com)
-Haaretz (haaretz.co.il / haaretz.com)
-Handelsblatt (handelsblatt.com)
-Hartford Courant (courant.com)
-Harvard Business Review (hbr.org)
-Inc.com (inc.com)
-Investors Chronicle (investorschronicle.co.uk)
-Irish Times (irishtimes.com)
-La Repubblica (Repubblica.it)
-Le Temps (letemps.ch)
-Los Angeles Times (latimes.com)
-Medium (medium.com)
-Medscape (medscape.com)
-MIT Technology Review (technologyreview.com)
-Mountain View Voice (mv-voice.com)
-National Post (nationalpost.com)
-New Statesman (newstatesman.com)
-New York Magazine (nymag.com)
-Nikkei Asian Review (asia.nikkei.com)
-NRC (nrc.nl)
-Orange County Register (ocregister.com)
-Orlando Sentinel (orlandosentinel.com)
-Palo Alto Online (paloaltoonline.com)
-Quora (quora.com)
-SunSentinel (sun-sentinel.com)
-Tech in Asia (techinasia.com)
-The Advocate (theadvocate.com.au)
-The Age (theage.com.au)
-The Australian (theaustralian.com.au)
-The Australian Financial Review (afr.com)
-The Boston Globe (bostonglobe.com)
-The Globe and Mail (theglobeandmail.com)
-The Herald (theherald.com.au)
-The Japan Times (japantimes.co.jp)
-TheMarker (themarker.com)
-The Mercury News (mercurynews.com)
-The Morning Call (mcall.com)
-The Nation (thenation.com)
-The New York Times (nytimes.com)
-The New Yorker (newyorker.com)
-The News-Gazette (news-gazette.com)
-The Saturday Paper (thesaturdaypaper.com.au)
-The Spectator (spectator.co.uk)
-The Business Journals (bizjournals.com)
-The Seattle Times (seattletimes.com)
-The Sydney Morning Herald (smh.com.au)
-The Telegraph (telegraph.co.uk)
-The Times (thetimes.co.uk)
-The Toronto Star (thestar.com)
-The Washington Post (washingtonpost.com)
-The Wall Street Journal (wsj.com)
-Towards Data Science (towardsdatascience.com)
-Vanity Fair (vanityfair.com)
-Wired (wired.com)
-How to get around almost any newspaper paywalls
-In this article, I will show you guys five ways to get around newspaper paywalls and read articles for free without paying to any site.
-1. Using the Incognito window
-This one is very easy. You just have to click on the article you want to read and copy its URL and open an incognito window and paste the link and boom, you are now reading the article and bypassing it. This is true for reading Medium.com articles for free. Actually, the good thing about using the incognito window for reading articles is that your history isn’t traced. You can also use this method of reading articles for free in the new york times and all those newspaper sites that give you the opportunity to read a limited number of articles for free.
-[Video] Chrome Paywall smasher for reading the wall street Journal for free
-2. Using a VPN to bypass newspaper paywalls
-VPN gives you a virtual proxy address which helps you to bypass newspaper sites as they can’t track your IP address and you could connect and disconnect your VPN many times so that after every connection you get another IP address.
-3. Cleaning your browser history
-This is the same for every other type of bypass newspaper paywall method. You can clean your browsing history or cache to read unlimited articles. You can perform this process in the New York Times and all those sites like Medium which gives a free reading for months. Your browsing history is recorded and the site doesn’t allow you to read the articles for this purpose you need to clean your browser history and try again to read newspaper articles for free.
-4. Joining the free 1-month trial
-There are a lot of sites like the New York Times, Financial Times, and The Washington Post that give you an opportunity to read unlimited articles for one-month if you submit your credit card information and sign-up. This is one of the best ways to read newspaper articles for 1 month for free and then you could cancel.
-But, obviously, this isn’t a permanent solution to the permanent and my most favorite way to bypass newspaper articles is by using a chrome extension we mentioned in the method-5 to bypass any newspaper site paywall.
-5. [Powerful] Install Bypass Chrome Paywall Extension to bypass newspaper sites and read it for free
-How about this? You just have to install a chrome extension and you could read almost every major newspaper site and bypass its paywall without doing anything. It is like an ad-blocker. I personally use this method to read unlimited articles in newspaper publication for free.
-The step-by-step method to Install Bypass chrome paywall extension:
-Go to Google and type “Bypass paywall chrome extension”
-Click on the first search result to appear.
-Click on the “Code” and then Download the code as a ZIP file.
-Now, you have to unzip the folder. Unzip the folder and remember the address or the folder you have placed the folder.
-Then, you have to go to chrome and type chrome://extensions and make the developer mode on.
-Click on “load unpack” and copy the folder we have Unzipped.
-Boom, now you can read paywall-based articles for free.
-I hope this article will help you bypass any newspaper paywall and read paywall-based articles for free.
-', category: Category.fifth)
-
-article45 = Article.create(title: 'Facebook Shuts Down Massive ‘Stop the Steal’ Group', author: 'Sarah Emerson', url:'https://onezero.medium.com/facebook-shuts-down-massive-stop-the-steal-group-15daffe812d1', time: 3, image: 'https://miro.medium.com/max/700/1*1gY2EyVRO5prYjRkL7LVaA.jpeg', description: 'The pro-Trump group attracted 300,000 members in just two days', content: 'Asof Thursday morning, a massive Facebook group called “Stop the Steal” was raising funds to challenge election results across the country, falsely claiming that Democrats were stealing the election in states where President Trump has fallen behind.
+article44 = Article.create(title: 'Facebook Shuts Down Massive ‘Stop the Steal’ Group', author: 'Sarah Emerson', url:'https://onezero.medium.com/facebook-shuts-down-massive-stop-the-steal-group-15daffe812d1', time: 3, image: 'https://miro.medium.com/max/700/1*1gY2EyVRO5prYjRkL7LVaA.jpeg', description: 'The pro-Trump group attracted 300,000 members in just two days', content: 'Asof Thursday morning, a massive Facebook group called “Stop the Steal” was raising funds to challenge election results across the country, falsely claiming that Democrats were stealing the election in states where President Trump has fallen behind.
 On Thursday afternoon, Facebook banned the group on the basis of attempting to delegitimize the election process, and for its role in potentially instigating physical violence.
 “In line with the exceptional measures that we are taking during this period of heightened tension, we have removed the Group ‘Stop the Steal,’ which was creating real-world events. The group was organized around the delegitimization of the election process, and we saw worrying calls for violence from some members of the group,” a Facebook spokesperson told OneZero.
 For two days, the group promoted baseless claims about election fraud, such as the conspiracy theory that Trump votes were being discarded.
@@ -1543,7 +1405,7 @@ Some of these groups are now creating backups on MeWe, a platform that markets i
 Members of these groups are also sharing content generated off-platform, such as a Substack post titled “5 things you can do now to #StopTheSteal” that encourages people to “Participate in citizen journalism by monitoring and documenting ballot counting.”
 Mobs of Trump supporters have already descended on vote-counting centers in states like Arizona and Michigan, in some cases demanding that votes stop being counted despite the fact that Trump is currently behind Vice President Biden.', category: Category.fifth)
 
-article46 = Article.create(title: 'Top 100 LinkedIn Hashtags 2020 (Updated, 2021)', author: '
+article45 = Article.create(title: 'Top 100 LinkedIn Hashtags 2020 (Updated, 2021)', author: '
 Mario Claudio Lattuga', url:'https://medium.com/@mlattuga1/top-linkedin-hashtags-2020-800f3e0baf84', time: 2, image: 'https://miro.medium.com/max/700/1*ymqtmcZe5yFwF1cjzolVWg.png', description: 'For some reason, LinkedIn’s top hashtags are quite the black box.', content: 'For some reason, LinkedIn’s top hashtags are quite the black box. Yet, LinkedIn is such a powerful tool for professionals to market their products and services, and hashtags are a great way to increase eyes on posts.
 Consequently, I parsed through LinkedIn to find the top hashtags.
 Given that hashtags are fluid, this article will be periodically updated. Note, the number of followers has been rounded because ain’t nobody got time for that.
@@ -1650,7 +1512,7 @@ As of January 25, 2021, these are the top 100 LinkedIn hashtags and correspondin
 #automation — 141k
 This list will be periodically updated. However, if I missed a hashtag, feel free to drop a comment below and I’ll add it to the list.', category: Category.fifth)
 
-article47 = Article.create(title: '5 Toxic Behaviors That Have Been Normalized by Society', author: 'Eric Sangerma', url:'https://medium.com/wholistique/5-toxic-behaviors-that-have-been-normalized-by-society-6774859b699a', time: 5, image: 'https://miro.medium.com/max/1000/1*nZO8gJzmtNp5FHuT04G63w.jpeg', description: 'Cut the crap', content: 'There’s a long and hilarious history (dating back to Aristotle) of adults complaining about new trends and worrying about kids.
+article46 = Article.create(title: '5 Toxic Behaviors That Have Been Normalized by Society', author: 'Eric Sangerma', url:'https://medium.com/wholistique/5-toxic-behaviors-that-have-been-normalized-by-society-6774859b699a', time: 5, image: 'https://miro.medium.com/max/1000/1*nZO8gJzmtNp5FHuT04G63w.jpeg', description: 'Cut the crap', content: 'There’s a long and hilarious history (dating back to Aristotle) of adults complaining about new trends and worrying about kids.
 I don’t want to be that guy. I’m enthusiastic about the whole world moving online and the benefits of remote work. I believe we can push forward as a society, gradually getting better and kinder.
 But I also witness how our current society rewards certain toxic behaviors. And this is especially true for those who spend a lot of time online.
 Let’s talk about those traits we’d be better off without.
@@ -1690,7 +1552,7 @@ My personal motto is: Cut the crap. That’s what I tell myself when I notice I�
 As long as I can hold on to who I am, I think I’ll be fine.
 Mostly.', category: Category.fifth)
 
-article48 = Article.create(title: 'How the ‘Frog-Pond Effect’ Distorts Your Self-Image', author: 'Markham Heid', url:'https://elemental.medium.com/how-the-frog-pond-effect-distorts-your-self-image-f701a84ae1ec', time: 6, image: 'https://miro.medium.com/max/700/0*TWrOIKzWFmZQEh7v', description: 'Few of us fully appreciate the role of social comparison in our well-being', content: 'For a 2012 study in PLOS One, researchers invited a young woman into a laboratory at Ohio University.
+article47 = Article.create(title: 'How the ‘Frog-Pond Effect’ Distorts Your Self-Image', author: 'Markham Heid', url:'https://elemental.medium.com/how-the-frog-pond-effect-distorts-your-self-image-f701a84ae1ec', time: 6, image: 'https://miro.medium.com/max/700/0*TWrOIKzWFmZQEh7v', description: 'Few of us fully appreciate the role of social comparison in our well-being', content: 'For a 2012 study in PLOS One, researchers invited a young woman into a laboratory at Ohio University.
 The woman learned that she would be taking part in an “aesthetic judgment” experiment. The researchers took a photograph of her face and then asked her to sit at a table that held two objects: a computer monitor and a mirror.
 On the monitor, the woman viewed a series of headshots of what the study termed “attractive professional models” — all of them women. Following this barrage of beautiful faces, the woman’s own photograph appeared on the screen. But it wasn’t just a single photo; the woman saw 13 pictures of herself scattered across the monitor. Looking closely, she could see that each version of her face was different from all the others.
 Using a specially designed photo-editing program, the researchers had taken the woman’s photograph and created “morphs” — copies manipulated to make the woman appear either more or less attractive. Along with her original headshot, the woman was now looking at eight photographs that airbrushed and otherwise enhanced her appearance — dramatically, in some cases — and four photographs that marred her looks.
@@ -1724,7 +1586,7 @@ Second, take time to tell the people in your life why you’re grateful for them
 We can’t switch off our social-comparison tendencies. But with a little effort, we can recalibrate them.
 ', category: Category.fifth)
 
-article49 = Article.create(title: 'The Era of Freedom on the Web is Dead.', author: 'Ali Samadpour', url:'https://alisamadpour.medium.com/the-era-of-freedom-on-the-web-is-dead-4107fa51a266', time: 9, image: 'https://miro.medium.com/max/1400/1*RnrZ5gUrKzHa5We_I72Log.png', description: 'We are now in the age of Orwellian surveillance and censorship.', content: 'You have probably noticed that almost every single tweet from the President of The United States in the past six weeks has gotten a little notice under it from Twitter claiming that the claim has been disputed. This is part of Twitter’s relatively new fact-checking initiative. Facebook has its own program for this as well.
+article48 = Article.create(title: 'The Era of Freedom on the Web is Dead.', author: 'Ali Samadpour', url:'https://alisamadpour.medium.com/the-era-of-freedom-on-the-web-is-dead-4107fa51a266', time: 9, image: 'https://miro.medium.com/max/1400/1*RnrZ5gUrKzHa5We_I72Log.png', description: 'We are now in the age of Orwellian surveillance and censorship.', content: 'You have probably noticed that almost every single tweet from the President of The United States in the past six weeks has gotten a little notice under it from Twitter claiming that the claim has been disputed. This is part of Twitter’s relatively new fact-checking initiative. Facebook has its own program for this as well.
 Social media is spiraling out of control and desperately needs to be reeled back in, but how much of this is the user’s responsibility vs the platforms? Should platforms and their third-party partners be policing the content being shared or should users be more accountable?
 Why platforms are censoring content
 We’re in a truly exciting, yet terrifying era with the internet. The internet turns 30 next year! In the 30 years the internet has been publicly available, we’ve seen and experienced so many wonderful things. Commerce has completely transformed. Human interaction and dating have changed forever (swipe right if you see me!) Music has transitioned from physical to digital. I’ve made a lot of friends who I’ve never met in person due to video games. Our quality of life has increased significantly because of the internet!
@@ -1767,6 +1629,113 @@ What are the alternatives to big tech? Parler? Bitcoin? A decentralized future.
 Big tech is inescapable. I’ve come to terms with that. Freedom & privacy on the internet is gone. While there are alternatives to big tech, they aren’t really financially viable because so many companies are dependent on ad revenue. Companies, blogs, retailers, and content creators all need to publish content that can be monetized so they can survive.
 New social media platforms like Parler have popped up recently and have been promising free speech and less censorship. But how will they monetize this? “Our business model is going to be an ad revenue model. The idea of how we’re going to do it isn’t going to be a centralized model for ads, it will be specific around influencers. So advertisers will target influencers and those people with a large reach, rather than us as a platform,” John Matze, CEO and founder of Parler. The platform is controversial as it has become a place for Trump supporters to hang out without fear of scrutiny but I welcome the competition. I’m curious to see how long the platform lasts — not because of its user base but because of how they’re choosing to monetize the platform.
 Alex Jones is turning to Bitcoin. PornHub is turning to Bitcoin. Even PayPal is embracing Bitcoin. Bitcoin is an answer to a lot of the banking issues because it’s a decentralized digital currency. There is no central bank and no one to answer to. And maybe this is what we need more of. Companies are too powerful. Every ounce of our privacy has been sold — we are constantly being tracked. The internet is no longer free.', category: Category.fifth)
+
+article49 = Article.create(title: 'How To Get Around Newspaper Paywalls In 2021 Read Article For Free', author: '', url:'https://medium.com/how-to-blogs/how-to-get-around-newspaper-paywalls-in-2020-read-article-for-free-768b5cbe201f', time: 5, image: 'https://miro.medium.com/max/1000/0*I5SDlTfE4qL4Fk_g', description: 'Read and bypass every newspaper site like the New York Times, Medium, WSJ, Washington Post, Business Insider, and Financial Times For Free.', content: 'The media industry is changing with time and this time the Internet revolutionizes everything from Journalism to marketing to growing sales. Newspaper sites like the New York Times and Financial times introduced their paywall and you have to subscribe to their services in order to get around their paywall and read their articles for free. The first time i experienced a paywall is when I was reading Medium articles.
+Big newspaper sites like The Washington Post, the New York Times, BusinessInsider, and almost every online publishing site started introducing their own paywall. Some of the newspaper sites like the New York Times give you the opportunity to read a limited number of articles for free on a monthly basis.
+Why I am writing this article? I am writing to help students and those people who can’t afford the subscription charges. I have made some videos related to bypass newspaper sites and read articles for free and a lot of students and poor folks thank me for making such videos. You can watch videos like;
+Disclosure: Some links mentioned in this article are affiliate links this means we will make a small commission, with no extra cost to you, if you choose to buy a service or product through our links. Thank you!
+Before you go to the process, you can check out the links and buy a digital subscription to these platforms;
+Check out the New York Times Digital Subscription
+Check out the Wall Street Journal DIgital subscription
+Check out the Financial Times Digital Subscription
+Check out the Economist (US Edition) Digital Subscription
+Ever heard of ad-wall, it is like Paywalls for those people who have ad-blocks installed. I believe this is very unethical to consume content and don’t see ads because that is in your control, you might be poor like me, I am a student, but you could allow and take time to see and check out ads. If you have an ad-blocker installed then you should un-installed it right now.
+You can read and bypass the paywall of the following sites:
+Baltimore Sun (baltimoresun.com)
+Barron’s (barrons.com)
+Bloomberg (bloomberg.com)
+Caixin (caixinglobal.com)
+Chemical & Engineering News (cen.acs.org)
+Central Western Daily (centralwesterndaily.com.au)
+Chicago Tribune (chicagotribune.com)
+Crain’s Chicago Business (chicagobusiness.com)
+Corriere Della Sera (corriere.it)
+Daily Press (dailypress.com)
+Denver Post (denverpost.com)
+De Tijd (tijd.be)
+de Volkskrant (volkskrant.nl)
+The Economist (economist.com)
+Examiner (examiner.com.au)
+Financial Times (ft.com)
+Foreign Policy (foreignpolicy.com)
+Glassdoor (glassdoor.com)
+Haaretz (haaretz.co.il / haaretz.com)
+Handelsblatt (handelsblatt.com)
+Hartford Courant (courant.com)
+Harvard Business Review (hbr.org)
+Inc.com (inc.com)
+Investors Chronicle (investorschronicle.co.uk)
+Irish Times (irishtimes.com)
+La Repubblica (Repubblica.it)
+Le Temps (letemps.ch)
+Los Angeles Times (latimes.com)
+Medium (medium.com)
+Medscape (medscape.com)
+MIT Technology Review (technologyreview.com)
+Mountain View Voice (mv-voice.com)
+National Post (nationalpost.com)
+New Statesman (newstatesman.com)
+New York Magazine (nymag.com)
+Nikkei Asian Review (asia.nikkei.com)
+NRC (nrc.nl)
+Orange County Register (ocregister.com)
+Orlando Sentinel (orlandosentinel.com)
+Palo Alto Online (paloaltoonline.com)
+Quora (quora.com)
+SunSentinel (sun-sentinel.com)
+Tech in Asia (techinasia.com)
+The Advocate (theadvocate.com.au)
+The Age (theage.com.au)
+The Australian (theaustralian.com.au)
+The Australian Financial Review (afr.com)
+The Boston Globe (bostonglobe.com)
+The Globe and Mail (theglobeandmail.com)
+The Herald (theherald.com.au)
+The Japan Times (japantimes.co.jp)
+TheMarker (themarker.com)
+The Mercury News (mercurynews.com)
+The Morning Call (mcall.com)
+The Nation (thenation.com)
+The New York Times (nytimes.com)
+The New Yorker (newyorker.com)
+The News-Gazette (news-gazette.com)
+The Saturday Paper (thesaturdaypaper.com.au)
+The Spectator (spectator.co.uk)
+The Business Journals (bizjournals.com)
+The Seattle Times (seattletimes.com)
+The Sydney Morning Herald (smh.com.au)
+The Telegraph (telegraph.co.uk)
+The Times (thetimes.co.uk)
+The Toronto Star (thestar.com)
+The Washington Post (washingtonpost.com)
+The Wall Street Journal (wsj.com)
+Towards Data Science (towardsdatascience.com)
+Vanity Fair (vanityfair.com)
+Wired (wired.com)
+How to get around almost any newspaper paywalls
+In this article, I will show you guys five ways to get around newspaper paywalls and read articles for free without paying to any site.
+1. Using the Incognito window
+This one is very easy. You just have to click on the article you want to read and copy its URL and open an incognito window and paste the link and boom, you are now reading the article and bypassing it. This is true for reading Medium.com articles for free. Actually, the good thing about using the incognito window for reading articles is that your history isn’t traced. You can also use this method of reading articles for free in the new york times and all those newspaper sites that give you the opportunity to read a limited number of articles for free.
+[Video] Chrome Paywall smasher for reading the wall street Journal for free
+2. Using a VPN to bypass newspaper paywalls
+VPN gives you a virtual proxy address which helps you to bypass newspaper sites as they can’t track your IP address and you could connect and disconnect your VPN many times so that after every connection you get another IP address.
+3. Cleaning your browser history
+This is the same for every other type of bypass newspaper paywall method. You can clean your browsing history or cache to read unlimited articles. You can perform this process in the New York Times and all those sites like Medium which gives a free reading for months. Your browsing history is recorded and the site doesn’t allow you to read the articles for this purpose you need to clean your browser history and try again to read newspaper articles for free.
+4. Joining the free 1-month trial
+There are a lot of sites like the New York Times, Financial Times, and The Washington Post that give you an opportunity to read unlimited articles for one-month if you submit your credit card information and sign-up. This is one of the best ways to read newspaper articles for 1 month for free and then you could cancel.
+But, obviously, this isn’t a permanent solution to the permanent and my most favorite way to bypass newspaper articles is by using a chrome extension we mentioned in the method-5 to bypass any newspaper site paywall.
+5. [Powerful] Install Bypass Chrome Paywall Extension to bypass newspaper sites and read it for free
+How about this? You just have to install a chrome extension and you could read almost every major newspaper site and bypass its paywall without doing anything. It is like an ad-blocker. I personally use this method to read unlimited articles in newspaper publication for free.
+The step-by-step method to Install Bypass chrome paywall extension:
+Go to Google and type “Bypass paywall chrome extension”
+Click on the first search result to appear.
+Click on the “Code” and then Download the code as a ZIP file.
+Now, you have to unzip the folder. Unzip the folder and remember the address or the folder you have placed the folder.
+Then, you have to go to chrome and type chrome://extensions and make the developer mode on.
+Click on “load unpack” and copy the folder we have Unzipped.
+Boom, now you can read paywall-based articles for free.
+I hope this article will help you bypass any newspaper paywall and read paywall-based articles for free.
+', category: Category.fifth)
 
 article50 = Article.create(title: 'Bill Gates made these 15 predictions back in 1999 — and it’s fascinating how accurate he was', author: 'Business Insider', url:'https://medium.com/business-insider/bill-gates-made-these-15-predictions-back-in-1999-96162c148aa9', time: 7, image: 'https://miro.medium.com/max/2000/1*cI6_orLs2T08qsXOh8KWfg.jpeg', description: 'In 1999 Bill Gates wrote a book called “Business @ the Speed of Thought,” which contained 15 bold predictions.', content: 'In 1999 Bill Gates wrote a book called “Business @ the Speed of Thought,” which contained 15 bold predictions. They turned out to be eerily prescient.
 By Matt Weinberger

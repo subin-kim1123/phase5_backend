@@ -5,6 +5,7 @@ class MyArticlesController < ApplicationController
     end
 
     def create
+        # byebug
         my_article = MyArticle.create(my_article_params)
         if my_article.valid?
             render json: my_article
@@ -21,6 +22,6 @@ class MyArticlesController < ApplicationController
     private
 
     def my_article_params
-        params.permit(:user_id, :article_id)
+        params.permit(:user_id, :article_id, :my_article)
     end
 end
